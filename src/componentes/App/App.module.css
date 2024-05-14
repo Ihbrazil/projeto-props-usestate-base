@@ -1,0 +1,77 @@
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cabecalho {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  color: black;
+  background-color: rgb(150, 213, 250);
+}
+
+.cabecalho h1 {
+  margin-bottom: 21px;
+  padding: 0px 20px;
+}
+
+.cabecalho p {
+  padding: 0px 20px;
+}
+
+.botao {
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: white;
+}
+.Card {
+  padding: 10px 300px;
+}
+.CardAnimal {
+  width: 300px;
+  height: 300px;
+  margin: 50px 0px;
+  border: 5px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+}
+
+.CardAnimal img {
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+  display: flex;
+}
+
+.CardInformacao {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  border-radius: 8px;
+  color: black;
+  font-weight: 600;
+}
+
+.CardInformacao h3 {
+  margin-bottom: 15px;
+}
+
+.CardInformacao p {
+  width: 80%;
+}
